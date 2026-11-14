@@ -1,0 +1,23 @@
+{
+  "dias": 90,
+  "max_por_tema": 12,
+  "filtro": "(guideline[pt] OR practice guideline[pt] OR randomized controlled trial[pt] OR meta-analysis[pt] OR consensus development conference[pt] OR guideline*[ti] OR consensus[ti] OR recommendations[ti]) AND (english[la] OR spanish[la])",
+  "temas": [
+    {"titulo": "Trombocitopenia inmune (PTI)", "pagina": "benigna/pti-adulto.md", "consulta": "immune thrombocytopenia[ti]"},
+    {"titulo": "Anemia ferropénica", "pagina": "benigna/anemia-ferropenica.md", "consulta": "iron deficiency[ti]"},
+    {"titulo": "Anemia megaloblástica (B12/folato)", "pagina": "benigna/anemia-megaloblastica.md", "consulta": "(vitamin B12 deficiency[ti] OR cobalamin deficiency[ti] OR megaloblastic[ti])"},
+    {"titulo": "Anemias hemolíticas", "pagina": "benigna/anemias-hemoliticas.md", "consulta": "(autoimmune hemolytic anemia[ti] OR cold agglutinin disease[ti] OR paroxysmal nocturnal hemoglobinuria[ti])"},
+    {"titulo": "Aplasia medular", "pagina": "benigna/aplasia-medular.md", "consulta": "aplastic anemia[ti]"},
+    {"titulo": "TEV y anticoagulación", "pagina": "benigna/tev-anticoagulacion.md", "consulta": "(venous thromboembolism[ti] OR pulmonary embolism[ti] OR deep vein thrombosis[ti]) AND (anticoagula*[ti] OR treatment[ti] OR management[ti])"},
+    {"titulo": "Hemostasia y trombosis", "pagina": "benigna/hemostasia-trombosis.md", "consulta": "(thrombotic thrombocytopenic purpura[ti] OR hemophilia[ti] OR von Willebrand[ti] OR antiphospholipid syndrome[ti] OR heparin-induced thrombocytopenia[ti])"},
+    {"titulo": "Linfomas", "pagina": "hemato-onco/linfomas.md", "consulta": "(Hodgkin lymphoma[ti] OR diffuse large B-cell lymphoma[ti] OR follicular lymphoma[ti] OR mantle cell lymphoma[ti] OR marginal zone lymphoma[ti] OR Burkitt lymphoma[ti])"},
+    {"titulo": "Leucemia linfocítica crónica (LLC)", "pagina": "hemato-onco/llc.md", "consulta": "chronic lymphocytic leukemia[ti]"},
+    {"titulo": "Leucemia mieloide aguda (LMA)", "pagina": "hemato-onco/lma.md", "consulta": "acute myeloid leukemia[ti]"},
+    {"titulo": "Leucemia linfoblástica aguda (LLA)", "pagina": "hemato-onco/lla.md", "consulta": "acute lymphoblastic leukemia[ti] AND (adult*[ti] OR older[ti] OR elderly[ti])"},
+    {"titulo": "Mieloma múltiple y gammapatías monoclonales", "pagina": "hemato-onco/mieloma.md", "consulta": "(multiple myeloma[ti] OR smoldering myeloma[ti] OR monoclonal gammopathy[ti] OR plasmacytoma[ti])"},
+    {"titulo": "Síndrome mielodisplásico (SMD)", "pagina": "hemato-onco/sindrome-mielodisplasico.md", "consulta": "(myelodysplastic syndrome*[ti] OR myelodysplastic neoplasm*[ti])"},
+    {"titulo": "Leucemia mielomonocítica crónica (LMMC)", "pagina": "hemato-onco/lmmc.md", "consulta": "chronic myelomonocytic leukemia[ti]"},
+    {"titulo": "Medicina transfusional", "pagina": "transversal/medicina-transfusional.md", "consulta": "(red blood cell transfusion[ti] OR platelet transfusion[ti] OR transfusion threshold*[ti])"},
+    {"titulo": "Urgencias hematológicas", "pagina": "transversal/urgencias-hematologicas.md", "consulta": "(tumor lysis syndrome[ti] OR febrile neutropenia[ti] OR hyperleukocytosis[ti])"}
+  ]
+}

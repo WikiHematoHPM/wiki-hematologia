@@ -1,0 +1,58 @@
+# Publica la wiki en GitHub Pages.
+#  - Cada vez que subes cambios (push) a la rama principal.
+#  - Cada lunes: además actualiza docs/novedades.md con artículos nuevos de PubMed.
+#  - A mano: pestaña Actions → "Publicar wiki" → Run workflow.
+name: Publicar wiki
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "0 10 * * 1"   # lunes 10:00 UTC (madrugada/mañana en Chile)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.x
+
+      - name: Buscar artículos nuevos en PubMed (solo ejecución semanal o manual)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python3 scripts/novedades_pubmed.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/novedades.md
+          git diff --cached --quiet || (git commit -m "Novedades PubMed (automático)" && git push)
+
+      - name: Control de calidad de la wiki
+        run: python3 scripts/check_wiki.py
+
+      - name: Construir el sitio
+        run: |
+          pip install zensical
+          zensical build --clean
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+      - uses: actions/deploy-pages@v5
+        id: deployment

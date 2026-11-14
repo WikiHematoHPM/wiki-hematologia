@@ -1,0 +1,83 @@
+site_name: Wiki de Hematología
+site_description: Wiki docente y de estudio en hematología benigna y hemato-oncología, con algoritmos, tratamientos y dosis respaldados por fuentes verificadas.
+site_author: Unidad de Hematología
+docs_dir: docs
+copyright: Uso docente y de estudio. No reemplaza el juicio clínico ni las guías y fichas técnicas vigentes.
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Inicio: index.md
+  - Hematología benigna:
+      - benigna/index.md
+      - Trombocitopenia inmune (PTI) del adulto: benigna/pti-adulto.md
+      - Anemia ferropénica: benigna/anemia-ferropenica.md
+      - Anemia megaloblástica (B12/folato): benigna/anemia-megaloblastica.md
+      - Anemia de enfermedad crónica: benigna/anemia-enfermedad-cronica.md
+      - Anemias hemolíticas: benigna/anemias-hemoliticas.md
+      - Aplasia medular: benigna/aplasia-medular.md
+      - TEV y anticoagulación: benigna/tev-anticoagulacion.md
+      - Hemostasia y trombosis: benigna/hemostasia-trombosis.md
+      - Citopenias y estudio inicial: benigna/citopenias-estudio-inicial.md
+  - Hemato-oncología:
+      - hemato-onco/index.md
+      - Linfomas (diagnóstico y etapificación): hemato-onco/linfomas.md
+      - Leucemia linfocítica crónica (LLC): hemato-onco/llc.md
+      - Leucemia mieloide aguda (LMA): hemato-onco/lma.md
+      - LLA-B >60 años y frágiles: hemato-onco/lla.md
+      - Mieloma múltiple y gammapatías monoclonales: hemato-onco/mieloma.md
+      - Síndrome mielodisplásico (SMD): hemato-onco/sindrome-mielodisplasico.md
+      - Leucemia mielomonocítica crónica (LMMC): hemato-onco/lmmc.md
+  - Transversal:
+      - transversal/index.md
+      - Laboratorio y diagnóstico: transversal/laboratorio-diagnostico.md
+      - Medicina transfusional: transversal/medicina-transfusional.md
+      - Urgencias hematológicas: transversal/urgencias-hematologicas.md
+  - Metodología:
+      - Cómo se construye y actualiza: metodologia.md
+      - Plantilla de página: plantilla-pagina.md
+      - Competencias docentes (mapeo CanMEDS): competencias-docentes.md
+      - Registro de cambios: changelog.md
+  - Referencias verificadas: referencias.md
+  - Novedades de la literatura: novedades.md
+  - Alojamiento y publicación: alojamiento.md
