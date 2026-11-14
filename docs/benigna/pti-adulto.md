@@ -1,7 +1,7 @@
 # Trombocitopenia inmune (PTI) primaria del adulto
 
 !!! info "Ficha de la página"
-    **Última revisión:** 2026-11-11 · **Fuente base:** guía ASH 2026 (actualización focalizada de la guía ASH 2019) [1] · **Alcance:** PTI primaria en adultos (≥18 años), tratamiento inicial y de segunda línea. Diagnóstico, embarazo, pediatría, PTI secundaria y PTI refractaria **no** están cubiertos por la guía ASH 2026 y se remiten al consenso internacional 2019 [2].
+    **Última revisión:** 2026-11-14 · **Fuente base:** guía ASH 2026 (actualización focalizada de la guía ASH 2019) [1] · **Alcance:** PTI primaria en adultos (≥18 años), tratamiento inicial y de segunda línea. Diagnóstico, embarazo, pediatría, PTI secundaria y PTI refractaria **no** están cubiertos por la guía ASH 2026 y se remiten al consenso internacional 2019 [2].
 
 ## 1. Resumen rápido
 
@@ -77,7 +77,7 @@ flowchart TD
 | **Eltrombopag** | Inicio **50 mg/día** (**25 mg/día** si ascendencia del Este/Sudeste asiático); ajustar en +25 mg si plaquetas <50 000/µl tras ≥2 semanas; **máx. 75 mg/día**; meta ≥50 000/µl, evitar >75 000/µl | Esperar 2 semanas para evaluar cada ajuste; suspender si no hay respuesta tras 4 semanas con 75 mg. Ajuste en insuficiencia hepática y restricciones con cationes: **[PV]** | [18] ficha técnica UE · confirmar con ficha ISP Chile |
 | **Romiplostim** | Inicio **1 µg/kg SC semanal** (peso real); subir de a **1 µg/kg** hasta plaquetas ≥50 ×10⁹/l; **máx. 10 µg/kg/semana**; bajar 1 µg/kg si >150 ×10⁹/l por 2 semanas; no administrar si >250 ×10⁹/l | Suspender si tras 4 semanas con 10 µg/kg no hay respuesta | [19] ficha técnica UE · confirmar con ficha ISP Chile |
 | **Avatrombopag** | Inicio **20 mg/día con alimentos**; titulación por niveles (20 mg 1/sem hasta 40 mg/día); **máx. 40 mg/día**; objetivo ≥50 ×10⁹/l | Suspender si no alcanza ≥50 ×10⁹/l tras 4 semanas con 40 mg/día; dosis inicial distinta con inhibidores/inductores de CYP2C9 y CYP3A4/5 | [20] ficha técnica UE · disponibilidad en Chile: **[PV]** |
-| **Inhibidor de BTK** | — | Aprobado para PTI en 2025 según la guía; fármaco y dosis a consignar | Existencia: [1] **[V-TF]** · dosis: **[PV]** |
+| **Inhibidor de BTK (rilzabrutinib)** | **400 mg c/12 h VO** | Aprobado para PTI en 2025; dosis confirmada en el período abierto del ensayo de fase 3 **LUNA3** (mismo esquema usado en el período doble ciego) | Existencia: [1] **[V-TF]** · dosis: [138] **[V-RS]** |
 | **Inhibidor de SYK** (p. ej., fostamatinib) | — | Alternativa en segunda línea/refractarias | [1][4] **[V-TF/V-RS]** · dosis: **[PV]** |
 | **Micofenolato (MMF)** | — | **Contraindicado en embarazo** | [1] **[V-TF]** · dosis: **[PV]** |
 | **Azatioprina** | — | Menos favorable, pero barata, de amplia disponibilidad y **segura en embarazo** | [1] **[V-TF]** · dosis: **[PV]** |
@@ -162,11 +162,11 @@ Fuente: [1] **[V-TF]**. La guía ASH 2019 tuvo una revisión de vigencia que dec
 
 ## 12. Referencias de esta página
 
-Numeración de la [lista completa](../referencias.md): **[1]** ASH 2026 · **[2]** Consenso internacional 2019 · **[3]** Revisión 2022 de las guías ASH 2019 · **[4]** Bussel et al. 2021.
+Numeración de la [lista completa](../referencias.md): **[1]** ASH 2026 · **[2]** Consenso internacional 2019 · **[3]** Revisión 2022 de las guías ASH 2019 · **[4]** Bussel et al. 2021 · **[138]** Kuter et al., LUNA3 (rilzabrutinib) 2026.
 
 ## 13. Pendientes para completar la página
 
 - [ ] Texto completo del consenso internacional 2019 [2]: estudio diagnóstico, umbrales de tratamiento, embarazo, urgencias.
-- [ ] Dosis de IVIG, BTKi, SYK, MMF y azatioprina; contrastar dosis de TPO-RA con ficha ISP Chile.
+- [ ] Dosis de IVIG, SYK, MMF y azatioprina; contrastar dosis de TPO-RA y de rilzabrutinib con ficha ISP Chile.
 - [ ] Guía local/Chile y disponibilidad de fármacos.
 - [ ] Capítulo de PTI refractaria, PTI secundaria y síndrome de Evans [5].

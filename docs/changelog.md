@@ -6,6 +6,11 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-14 (18) — Novedades de noviembre 2026: PTI (rilzabrutinib) y LMA (evidencia emergente aza-ven en pacientes aptos)
+- **PTI del adulto:** la fila de **inhibidor de BTK** en la tabla de fármacos y dosis, antes **[PV]** por falta de fármaco y dosis específicos, se completa con **rilzabrutinib 400 mg c/12 h VO**, según los resultados del período abierto del ensayo de fase 3 **LUNA3** (Kuter et al. 2026, *Lancet Haematol*).
+- **LMA:** se agrega una nota de "evidencia emergente" (sin modificar el algoritmo ni la dosis estándar de 7+3) sobre el ensayo fase 2 **PARADIGM** (Fathi et al. 2026, *N Engl J Med*): azacitidina-venetoclax mostró supervivencia libre de eventos superior al 7+3 en pacientes **aptos** (14,5 vs 6,2 meses; HR 0,57), en una población mayoritariamente de riesgo adverso ELN 2022. Se deja marcada explícitamente **[PV]** por tratarse de un solo ensayo fase 2 aún no incorporado a las guías ELN/NCCN.
+- Referencias **[138]**–**[139]** añadidas.
+
 ## 2026-11-14 (17) — Competencias docentes y guía de alojamiento más desarrollada
 - Nueva página **Competencias docentes (mapeo CanMEDS)** (`competencias-docentes.md`, grupo Metodología): mapa de los 7 roles CanMEDS 2015 [137] contra cada página clínica de la wiki, con momento docente sugerido por página y guía de uso en supervisión (anclada a la retroalimentación C3 y las EPA del programa, pendientes de completar con la taxonomía exacta).
 - **Linfomas** confirmado como parte integral de la wiki general (ya estaba en `mkdocs.yml` e `hemato-onco/index.md`; se aclara en el `docs/index.md` general, que antes no lo mencionaba explícitamente).
