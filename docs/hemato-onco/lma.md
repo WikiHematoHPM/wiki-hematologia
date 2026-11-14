@@ -1,7 +1,7 @@
 # Leucemia mieloide aguda (LMA)
 
 !!! info "Ficha de la página"
-    **Última revisión:** 2026-11-11 · **Fuentes base:** recomendaciones ELN 2022 (Döhner et al.) [32] **[V-RS]**, ensayos RATIFY [33] **[V-RS]** y QuANTUM-First [34] **[V-RS]**, datos de CPX-351 [35] **[V-RS]**, resúmenes de AML Hub y fichas técnicas. Las dosis marcadas **[PV]** requieren verificación con fichas técnicas locales antes de uso clínico.
+    **Última revisión:** 2026-11-14 · **Fuentes base:** recomendaciones ELN 2022 (Döhner et al.) [32] **[V-RS]**, ensayos RATIFY [33] **[V-RS]** y QuANTUM-First [34] **[V-RS]**, datos de CPX-351 [35] **[V-RS]**, resúmenes de AML Hub y fichas técnicas. Las dosis marcadas **[PV]** requieren verificación con fichas técnicas locales antes de uso clínico.
 
 ## 1. Resumen rápido
 
@@ -79,6 +79,9 @@ flowchart TD
 
 - **Evaluación de respuesta:** aspirado de médula ósea **día 14–21**; si blastos ≥10 %, considerar reinducción precoz **[PV]**.
 - **Alternativas:** idarrubicina 12 mg/m² d1–3 (equivalente o superior a daunorrubicina en algunos estudios) **[PV]**; FLAG-IDA en centros con experiencia **[PV]**.
+
+!!! note "Evidencia emergente — ensayo PARADIGM (2026) [139] **[V-RS]**"
+    Un ensayo aleatorizado de **fase 2** (PARADIGM; Fathi et al., *N Engl J Med* 2026) en pacientes **aptos** para quimioterapia intensiva (excluyendo LMA CBF, *NPM1* mutada en <60 años, y *FLT3* mutado) comparó **azacitidina + venetoclax** frente a **inducción 7+3**: supervivencia libre de eventos mediana **14,5 vs 6,2 meses** (HR 0,57; IC95 % 0,39–0,84) a favor de azacitidina-venetoclax, con menos infecciones (28 % vs 41 %) y hemorragias grado ≥3 (2 % vs 12 %). La población incluida fue mayoritariamente de **riesgo adverso** por ELN 2022 (72 %) [139] **[V-RS]**. **[PV]** — hallazgo de un solo ensayo fase 2 (172 pacientes), aún **no incorporado** a las guías ELN/NCCN vigentes ni validado específicamente por subgrupo de riesgo; no debe usarse todavía para reemplazar el 7+3 estándar en pacientes aptos fuera de un ensayo clínico o sin discutirlo con un centro de referencia.
 
 ### 4.3 Midostaurina en LMA con FLT3 mutado (RATIFY)
 
@@ -434,6 +437,7 @@ Desde el 1 de diciembre de 2025, la canasta GES incluye:
 - **[33]** Stone RM et al., RATIFY (ver [lista](../referencias.md)).
 - **[34]** Erba HP et al., QuANTUM-First (ver [lista](../referencias.md)).
 - **[35]** Lancet JE et al., CPX-351 (ver [lista](../referencias.md)).
+- **[139]** Fathi AT et al., PARADIGM — azacitidina-venetoclax vs. inducción 7+3 en pacientes aptos (ver [lista](../referencias.md)).
 
 ## 13. Pendientes
 
