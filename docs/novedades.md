@@ -1,7 +1,7 @@
 # Novedades de la literatura
 
 !!! warning "Lista automática, sin revisar"
-    Generada automáticamente el **2026-11-14** desde PubMed: guías, consensos, ensayos aleatorizados y metaanálisis ingresados en los últimos **90 días** (máximo 12 por tema). **No forma parte del contenido verificado de la wiki**: es una lista de candidatos para revisar e incorporar a cada página. Los temas y consultas se definen en `scripts/vigilancia.json`.
+    Generada automáticamente el **2026-11-16** desde PubMed: guías, consensos, ensayos aleatorizados y metaanálisis ingresados en los últimos **90 días** (máximo 12 por tema). **No forma parte del contenido verificado de la wiki**: es una lista de candidatos para revisar e incorporar a cada página. Los temas y consultas se definen en `scripts/vigilancia.json`.
 
 ## Trombocitopenia inmune (PTI)
 
@@ -52,13 +52,14 @@ Página de la wiki: [Aplasia medular](benigna/aplasia-medular.md)
 
 Página de la wiki: [TEV y anticoagulación](benigna/tev-anticoagulacion.md)
 
+- Le Jeune S et al. **Direct oral anticoagulants versus vitamin K antagonists for the treatment of venous thromboembolism in adults with sickle cell disease: a Bayesian meta-analysis.** *Res Pract Thromb Haemost* 2026 Oct. PMID [43034677](https://pubmed.ncbi.nlm.nih.gov/43034677/) — Meta-Analysis, Systematic Review, Comparative Study
+- Akerboom B et al. **Clinical outcomes, anticoagulation practice patterns, and quality of life after cancer-associated pulmonary embolism: secondary outcomes of the Hydra randomized clinical trial.** *Res Pract Thromb Haemost* 2026 Oct. PMID [43032401](https://pubmed.ncbi.nlm.nih.gov/43032401/) — Randomized Controlled Trial, Multicenter Study
 - Mohammad HR et al. **A comparison of the efficacy and safety of direct oral anticoagulants with low molecular weight heparin for venous thromboembolism prophylaxis after total hip arthroplasty : a systematic review and meta-analysis.** *Bone Joint J* 2026 Nov 1. PMID [42966367](https://pubmed.ncbi.nlm.nih.gov/42966367/) — Systematic Review, Meta-Analysis, Comparative Study
 - Ahmed K et al. **A Paradigm Shift of Acute Pulmonary Embolism Management From an Old Classification System to a Novel A-E Approach From 2026 American Heart Association Guideline.** *Br J Hosp Med (Lond)* 2026 Sep 10. PMID [42812096](https://pubmed.ncbi.nlm.nih.gov/42812096/) — Editorial
 - Fei C et al. **Formation and Development of Deep Vein Thrombosis in Hip Fracture Patients With and Without Anticoagulation.** *Clin Appl Thromb Hemost* 2026 Jan-Dec. PMID [42747331](https://pubmed.ncbi.nlm.nih.gov/42747331/) — Randomized Controlled Trial
 - Wu YJ et al. **Direct oral anticoagulants versus low-molecular-weight heparin in Asian patients with cancer-associated venous thromboembolism: A systematic review and meta-analysis.** *Thromb Res* 2026 Sep. PMID [42721543](https://pubmed.ncbi.nlm.nih.gov/42721543/) — Systematic Review, Meta-Analysis
 - Patel N **2026 AHA/ACC guideline for the evaluation and management of acute pulmonary embolism in adults.** *J Hosp Med* 2026 Sep 3. PMID [42693678](https://pubmed.ncbi.nlm.nih.gov/42693678/)
 - Shi J et al. **Safety and efficacy of direct acting oral anticoagulants in the treatment of patients with morbid obesity with venous thromboembolism: A meta-analysis.** *Medicine (Baltimore)* 2026 Aug 21. PMID [42629703](https://pubmed.ncbi.nlm.nih.gov/42629703/) — Meta-Analysis
-- Raaja Sulochana H et al. **Concomitant lipid-lowering and anticoagulation therapy for recurrent venous thromboembolism prevention: A Bayesian meta-analysis.** *Med* 2026 Sep 11. PMID [42607667](https://pubmed.ncbi.nlm.nih.gov/42607667/) — Meta-Analysis
 
 ## Hemostasia y trombosis
 
@@ -75,7 +76,6 @@ Página de la wiki: [Hemostasia y trombosis](benigna/hemostasia-trombosis.md)
 - Teshler L et al. **Healthcare Professional Identified Priorities for a New Musculoskeletal Examination Scoring System for People With Hemophilia-an International Consensus.** *Haemophilia* 2026 Aug 27. PMID [42659406](https://pubmed.ncbi.nlm.nih.gov/42659406/)
 - Guillet B et al. **Acquired hemophilia A: an illustrated review based on the French National Guidelines.** *Res Pract Thromb Haemost* 2026 Jul. PMID [42657325](https://pubmed.ncbi.nlm.nih.gov/42657325/) — Review
 - Riancho-Zarrabeitia L et al. **Classification performance of the 2023 ACR/EULAR antiphospholipid syndrome criteria: a systematic review and meta-analysis.** *Rheumatology (Oxford)* 2026 Sep 1. PMID [42615990](https://pubmed.ncbi.nlm.nih.gov/42615990/) — Systematic Review, Meta-Analysis
-- MacDonald S et al. **Diagnosis and monitoring of thrombotic thrombocytopenic purpura: Guidance for laboratories from the British Society for Haematology.** *Br J Haematol* 2026 Sep. PMID [42605199](https://pubmed.ncbi.nlm.nih.gov/42605199/) — Practice Guideline
 
 ## Linfomas
 
