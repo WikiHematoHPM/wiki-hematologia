@@ -6,6 +6,11 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-20 (24) — Nueva página: Scores y calculadoras
+- Nueva página **Scores y calculadoras** (`transversal/scores-calculadoras.md`): principios de uso de scores, mapa de todos los scores ya desarrollados en la wiki con enlace a su página, y **13 calculadoras interactivas** (Wells TEP y TVP, Khorana, Padua, CHA₂DS₂-VASc, HAS-BLED, 4Ts, PLASMIC, HScore, IPI/R-IPI, NCCN-IPI, CLL-IPI, ISS/R-ISS). Cada tabla indica si los pesos están verificados por resumen **[V-RS]** o pendientes **[PV]**; las calculadoras usan los mismos pesos de la tabla.
+- Se agregan `docs/javascripts/calculadoras.js` y `docs/stylesheets/calculadoras.css` (registrados en `mkdocs.yml`). Funcionan en el navegador, sin guardar ni enviar datos; probados con todos los casos de la autoevaluación y con el constructor de producción (Zensical).
+- `transversal/index.md`: "Por desarrollar" → "Lista". Referencias **[174]–[182]** añadidas; se reutilizan [13], [73], [85], [132] y [133].
+
 ## 2026-11-20 (23) — Se retira la página "Alojamiento y publicación"
 - Se elimina `docs/alojamiento.md` y su entrada del `mkdocs.yml`, para que la wiki quede dedicada solo a material de estudio. Se quita el enlace desde `docs/index.md`.
 - La información técnica de publicación sigue disponible para quien mantiene el repositorio en el `README.md` (flujo `.github/workflows/publicar.yml` y `scripts/novedades_pubmed.py`). El contenido anterior de la página se conserva en el historial de git.

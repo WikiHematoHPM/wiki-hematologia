@@ -1,0 +1,51 @@
+.calc {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--md-primary-fg-color);
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.75rem;
+}
+.calc label {
+  display: block;
+  margin: 0.25rem 0;
+  cursor: pointer;
+}
+.calc .pts {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.65rem;
+}
+.calc select,
+.calc input[type="text"] {
+  font: inherit;
+  padding: 0.15rem 0.3rem;
+  margin-left: 0.3rem;
+  max-width: 100%;
+}
+.calc fieldset {
+  border: none;
+  margin: 0.4rem 0;
+  padding: 0;
+}
+.calc legend {
+  font-weight: 600;
+  padding: 0;
+}
+.calc-out {
+  margin-top: 0.6rem;
+  padding: 0.5rem 0.7rem;
+  background: var(--md-code-bg-color);
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+.calc-reset {
+  margin-top: 0.5rem;
+  font: inherit;
+  font-size: 0.65rem;
+  cursor: pointer;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+}
