@@ -6,6 +6,10 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-20 (19) — Vigilancia PubMed ampliada a 3 páginas sin cobertura y corrección de estado en índice transversal
+- `scripts/vigilancia.json`: se agregan 3 temas que ya tenían página publicada pero no estaban bajo vigilancia semanal automática: **Anemia de enfermedad crónica**, **Citopenias y estudio inicial** y **Laboratorio y diagnóstico** (consulta acotada a MRD/citometría, el subtema con mayor probabilidad de guías/consensos nuevos).
+- `docs/transversal/index.md`: se corrige la fila de **Competencias docentes**, que seguía marcada "Por desarrollar" aunque la página ya existe desde el 2026-11-14 (18); se agrega el enlace correspondiente.
+
 ## 2026-11-14 (18) — Novedades de noviembre 2026: PTI (rilzabrutinib) y LMA (evidencia emergente aza-ven en pacientes aptos)
 - **PTI del adulto:** la fila de **inhibidor de BTK** en la tabla de fármacos y dosis, antes **[PV]** por falta de fármaco y dosis específicos, se completa con **rilzabrutinib 400 mg c/12 h VO**, según los resultados del período abierto del ensayo de fase 3 **LUNA3** (Kuter et al. 2026, *Lancet Haematol*).
 - **LMA:** se agrega una nota de "evidencia emergente" (sin modificar el algoritmo ni la dosis estándar de 7+3) sobre el ensayo fase 2 **PARADIGM** (Fathi et al. 2026, *N Engl J Med*): azacitidina-venetoclax mostró supervivencia libre de eventos superior al 7+3 en pacientes **aptos** (14,5 vs 6,2 meses; HR 0,57), en una población mayoritariamente de riesgo adverso ELN 2022. Se deja marcada explícitamente **[PV]** por tratarse de un solo ensayo fase 2 aún no incorporado a las guías ELN/NCCN.
