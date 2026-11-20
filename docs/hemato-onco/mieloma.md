@@ -1,7 +1,7 @@
 # Mieloma múltiple (MM) y gammapatías monoclonales
 
 !!! info "Ficha de la página"
-    **Última revisión:** 2026-11-14 · **Fuentes base:** guía EHA-ESMO 2021 [30] (texto completo leído, HemaSphere) para la estructura general del manejo, actualizada con ensayos pivotales 2023–2025 y criterios IMWG vigentes: PERSEUS [121], IMROZ [122], AQUILA [120], CARTITUDE-4 [124], anticuerpos biespecíficos [125]–[127], R2-ISS [123] y criterios diagnósticos IMWG 2014 [117]. Página ampliada para cubrir el **espectro completo de gammapatías monoclonales** (MGUS, SMM, MM, plasmocitoma). Las dosis exactas por ciclo y el soporte específico (enfermedad ósea, renal, infecciones) siguen **[PV]**; ver sección de Pendientes.
+    **Última revisión:** 2026-11-20 · **Fuentes base:** guía EHA-ESMO 2021 [30] (texto completo leído, HemaSphere) para la estructura general del manejo de MM, actualizada con ensayos pivotales 2023–2025 y criterios IMWG vigentes: PERSEUS [121], IMROZ [122], AQUILA [120], CARTITUDE-4 [124], anticuerpos biespecíficos [125]–[127], R2-ISS [123] y criterios diagnósticos IMWG 2014 [117]. Página ampliada para cubrir el **espectro completo de gammapatías monoclonales** (MGUS, SMM, MM, plasmocitoma, **amiloidosis AL** y **macroglobulinemia de Waldenström**), con estadificación Mayo revisada 2012 [156] y ensayo ANDROMEDA [157] para amiloidosis AL, y criterios OMS/ICC 2022 [129][130], IPSSWM/R-IPSSWM [159][160] y ensayo ASPEN [163] para Waldenström. Las dosis exactas por ciclo y el soporte específico (enfermedad ósea, renal, infecciones) siguen **[PV]**; ver sección de Pendientes.
 
 ## 1. Resumen rápido
 
@@ -13,6 +13,8 @@
 - **No trasplantables aptos (fit):** cuádruplo con anti-CD38 + VRd (**Isa-VRd**, IMROZ; o Dara-VRd) es ahora el nuevo estándar, superando a los triplos clásicos (VRd, DaraRd) [122] **[V-RS]**.
 - **Recaída temprana (1–3 líneas previas) refractaria a lenalidomida:** **CAR-T anti-BCMA (cilta-cel)** es superior a los esquemas estándar y se considera ya en 2.ª línea (CARTITUDE-4) [124] **[V-RS]**. Los **anticuerpos biespecíficos** (teclistamab, elranatamab, talquetamab) son el nuevo pilar en enfermedad triple-refractaria [125]–[127] **[V-RS]**.
 - **Plasmocitoma solitario** (óseo o extramedular): radioterapia local sigue siendo el tratamiento preferido, pero el riesgo de progresión a MM difiere sustancialmente entre ambas formas (ver §12) **[V-RS]**.
+- **Amiloidosis AL:** el estándar de primera línea es **daratumumab-CyBorD** (ANDROMEDA), que duplicó la tasa de respuesta hematológica completa frente a CyBorD solo (53,3 % vs 18,1 %) [157] **[V-RS]**; la estadificación de riesgo usa la **Mayo revisada 2012** (troponina T, NT-proBNP, diferencia de cadenas livianas) (ver §14) [156] **[V-RS]**.
+- **Macroglobulinemia de Waldenström:** la mutación **MYD88 L265P** está presente en ~90–95 % de los casos y orienta el tratamiento; los inhibidores de BTK (ibrutinib, zanubrutinib) y los esquemas basados en rituximab son los pilares del tratamiento de primera línea en enfermedad sintomática (ver §15) [161,163] **[V-RS]**.
 
 ## 2. Espectro de gammapatías monoclonales: clasificación general
 
@@ -27,7 +29,7 @@ Todas las gammapatías monoclonales derivan de un clon de células plasmáticas 
 | **Mieloma múltiple** | Variable | ≥10 % (o plasmocitoma biopsiado) | Presente (CRAB) o biomarcador SLiM positivo | Enfermedad activa, requiere tratamiento |
 | **Plasmocitoma solitario** | Ausente o mínima en suero | Médula ósea normal (<10 % clonal) | Ausente, lesión única confirmada por biopsia | ~1/3–2/3 progresan a MM según localización (ver §12) |
 
-Otras entidades del espectro que **no** se desarrollan en profundidad en esta página (remitir a wiki específica si se crea): amiloidosis AL, enfermedad por depósito de cadenas livianas, síndrome POEMS, enfermedades de cadenas pesadas — todas comparten el origen en un clon de células plasmáticas pero tienen criterios diagnósticos y manejo propios [117] **[V-RS]**.
+**Amiloidosis AL** y **macroglobulinemia de Waldenström** (gammapatía IgM) se desarrollan en profundidad en §14 y §15 de esta página. Otras entidades del espectro que **no** se desarrollan aquí (remitir a wiki específica si se crea): enfermedad por depósito de cadenas livianas, síndrome POEMS, enfermedades de cadenas pesadas — todas comparten el origen en un clon de células plasmáticas (o linfoplasmocítico) pero tienen criterios diagnósticos y manejo propios [117] **[V-RS]**.
 
 ## 3. Gammapatía monoclonal de significado incierto (MGUS)
 
@@ -279,7 +281,142 @@ flowchart TD
 3. **Reiniciar** el IMiD una vez que el paciente esté completamente anticoagulado y estable.
 4. Mantener anticoagulación mientras continúe el IMiD.
 
-## 14. Puntos clave para residentes e internos
+## 14. Amiloidosis AL (sistémica)
+
+La amiloidosis de cadenas livianas (AL) es la amiloidosis sistémica más frecuente: un clon de células plasmáticas (habitualmente pequeño) produce cadenas livianas monoclonales que se pliegan de forma anómala y se depositan como fibrillas amiloides en órganos, causando disfunción progresiva. A diferencia del MM, la carga tumoral plasmática suele ser baja; el pronóstico depende sobre todo del **daño de órgano** (especialmente cardíaco), no de la masa tumoral [117] **[V-RS]**.
+
+### 14.1 Diagnóstico
+
+1. **Confirmación histológica:** biopsia con tinción de rojo Congo positiva (birrefringencia verde-manzana con luz polarizada) en el tejido afectado o en un sitio sustituto (grasa abdominal, médula ósea, glándula salival) **[PV]** (sensibilidad exacta de los sitios sustitutos pendiente de verificación directa).
+2. **Tipificación del amiloide:** espectrometría de masas (LC-MS/MS) es el método de referencia; la inmunohistoquímica es una alternativa menos sensible. Es un paso **obligatorio** antes de tratar, ya que el manejo de la amiloidosis AL difiere radicalmente del de otras amiloidosis (ATTR, AA) **[PV]**.
+3. **Evidencia de clon de células plasmáticas (o linfoplasmocítico):** electroforesis e inmunofijación sérica/urinaria, cadenas livianas libres séricas (razón anormal o diferencia involucrada-no involucrada [FLC-diff] elevada), aspirado/biopsia de médula ósea [156] **[V-RS]**.
+4. **Evaluación de daño de órgano** (cardíaco, renal, hepático, neurológico periférico/autonómico, gastrointestinal): ecocardiograma y biomarcadores cardíacos (troponina T, NT-proBNP) son los más determinantes para el pronóstico y la elección de tratamiento [156] **[V-RS]**.
+
+### 14.2 Estadificación pronóstica: Mayo revisada 2012
+
+| Variable | Punto de corte | Puntos |
+|---|---|---|
+| Troponina T cardíaca | ≥0,025 ng/mL | 1 |
+| NT-proBNP | ≥1800 pg/mL | 1 |
+| Diferencia de cadenas livianas libres (FLC-diff) | ≥18 mg/dL | 1 |
+
+| Estadio Mayo revisado | Puntos | SG mediana (serie de derivación) |
+|---|---|---|
+| I | 0 | 94,1 meses |
+| II | 1 | 40,3 meses |
+| III | 2 | 14,0 meses |
+| IV | 3 | 5,8 meses |
+
+El modelo de Kumar et al. (Mayo Clinic, 810 pacientes, validado en 2 cohortes independientes) incorporó la FLC-diff al sistema previo basado solo en troponina T y NT-proBNP, mejorando la discriminación pronóstica [156] **[V-RS]**.
+
+### 14.3 Algoritmo de tratamiento
+
+```mermaid
+flowchart TD
+    A[Amiloidosis AL confirmada:<br/>biopsia + tipificacion + clon] --> B[Estadificar: Mayo revisada 2012<br/>troponina T, NT-proBNP, FLC-diff]
+    B --> C{Elegible para<br/>ASCT?<br/>estadio cardiaco, edad,<br/>funcion organica}
+    C -->|Si| D[Dara-CyBorD x6 ciclos<br/>- ANDROMEDA]
+    D --> E[Consolidar con melfalan<br/>dosis alta + ASCT<br/>en centro con experiencia]
+    C -->|No elegible para ASCT<br/>- mayoria de los pacientes| F[Dara-CyBorD x6 ciclos,<br/>luego daratumumab en<br/>monoterapia hasta 24 ciclos]
+    E --> G[Seguimiento: respuesta<br/>hematologica y de organo]
+    F --> G
+    G --> H{Respuesta<br/>hematologica<br/>insuficiente o recaida?}
+    H -->|Si| I[Segunda linea: esquema<br/>no usado previamente<br/>IMiD/anti-CD38/IP]
+```
+
+### 14.4 Fármacos y dosis
+
+| Esquema | Dosis | Indicación | Notas | Verificación |
+|---|---|---|---|---|
+| **CyBorD** (ciclofosfamida-bortezomib-dexametasona) | Esquema semanal clásico, 6 ciclos | Backbone estándar, con o sin daratumumab | Esquema de referencia previo a daratumumab **[PV]** (dosis exacta por ciclo pendiente de verificación directa) | [157] **[V-RS]** |
+| **Daratumumab-CyBorD** | Daratumumab SC semanal (ciclos 1–2), luego cada 2 semanas (ciclos 3–6), luego cada 4 semanas hasta 24 ciclos, + CyBorD x6 ciclos | **Primera línea estándar** (ANDROMEDA) | RC hematológica 53,3 % vs 18,1 % con CyBorD solo; más respuesta cardíaca (41,5 % vs 22,2 %) y renal (53,0 % vs 23,9 %) a 6 meses | [157] **[V-RS]** |
+| **Melfalán en dosis alta + ASCT** | Melfalán 100–200 mg/m² según función de órgano, con rescate de progenitores autólogos | Pacientes seleccionados con buena función cardíaca/renal, habitualmente tras inducción | Reservado a centros con experiencia; la mortalidad relacionada con el procedimiento es más alta que en MM si no se seleccionan bien los candidatos | [158] **[V-RS]** |
+
+### 14.5 Evidencia clave
+
+| Estudio | Diseño | Resultado principal | Certeza |
+|---|---|---|---|
+| **ANDROMEDA** (Kastritis et al., *N Engl J Med* 2021) | Fase 3, 388 pacientes, Dara-CyBorD vs CyBorD | RC hematológica 53,3 % vs 18,1 %; HR 0,58 para deterioro de órgano mayor, progresión hematológica o muerte | Alta (fase 3 aleatorizado) [157] |
+| **Guías EHA-ISA de ASCT en amiloidosis AL** (Sanchorawala et al., *Amyloid* 2022) | Consenso de expertos | Criterios de elegibilidad, dosis de melfalán ajustada a función de órgano, manejo de soporte | Consenso de expertos [158] |
+
+### 14.6 Seguimiento
+
+Respuesta hematológica (proteína M, cadenas livianas libres) y de órgano (ecocardiograma, NT-proBNP/troponina para cardíaco; proteinuria/depuración de creatinina para renal) se evalúan cada 3–6 meses tras iniciar tratamiento; los criterios de respuesta hematológica completa, muy buena respuesta parcial y respuesta parcial se basan en la normalización o reducción de la FLC-diff **[PV]** (umbrales exactos de respuesta pendientes de verificación directa en esta revisión).
+
+## 15. Macroglobulinemia de Waldenström (WM)
+
+La macroglobulinemia de Waldenström es un linfoma linfoplasmocítico (LPL) con infiltración de médula ósea y secreción de una IgM monoclonal; se clasifica dentro de los linfomas de células B pequeñas, pero su biología (mutación *MYD88*) y manejo son distintos de los demás linfomas indolentes y se agrupa aquí junto a las gammapatías por su paraproteína IgM [129,130] **[V-RS]**.
+
+### 15.1 Diagnóstico
+
+- **IgM monoclonal sérica** (cualquier concentración) **más** infiltración de médula ósea por linfocitos pequeños, células plasmocitoides y células plasmáticas con patrón habitualmente intertrabecular, con inmunofenotipo CD19+, CD20+, CD5–/+ (débil), CD10–, CD23– [129,130] **[V-RS]**.
+- **Mutación *MYD88* L265P:** presente en ~90–95 % de los casos de WM; su ausencia debe hacer reconsiderar el diagnóstico (diferencial con linfoma de zona marginal o MGUS IgM) [161] **[V-RS]**.
+- **Mutaciones de *CXCR4*** (variantes tipo WHIM): presentes en ~30–40 % de los pacientes con *MYD88* mutado; se asocian a mayor carga de enfermedad, hiperviscosidad y **resistencia relativa a los inhibidores de BTK** [161] **[V-RS]**.
+- Diferenciar de **MGUS IgM** y **SMM IgM asintomático** (sin infiltración significativa ni síntomas; ver tabla de §2), que no requieren tratamiento [164] **[V-RS]**.
+
+### 15.2 Estratificación de riesgo: IPSSWM y R-IPSSWM
+
+**IPSSWM original (Morel et al. 2009)** [159] **[V-RS]**:
+
+| Variable | Punto de corte |
+|---|---|
+| Edad | >65 años |
+| Hemoglobina | ≤11,5 g/dL |
+| Plaquetas | ≤100 × 10⁹/L |
+| β2-microglobulina | >3 mg/L |
+| Proteína M sérica | >7,0 g/dL |
+
+| Grupo de riesgo | Criterios | SG a 5 años |
+|---|---|---|
+| Bajo | 0–1 factor (sin contar edad) y edad ≤65 años | 87 % |
+| Intermedio | 2 factores, o solo edad >65 años | 68 % |
+| Alto | >2 factores | 36 % |
+
+**R-IPSSWM revisado (Kastritis et al. 2019)** [160] **[V-RS]**: incorpora edad en 3 estratos (≤65, 66–75, ≥76 años), β2-microglobulina ≥4 mg/L, albúmina <3,5 g/dL y LDH ≥250 UI/L, definiendo 5 grupos con tasas de muerte relacionada con WM a 3 años de 0 %, 10 %, 14 %, 38 % y 48 % respectivamente. Mejora la discriminación en la era de inmunoquimioterapia frente al IPSSWM original.
+
+### 15.3 ¿Cuándo tratar?
+
+No todo paciente con WM requiere tratamiento inmediato. Las indicaciones típicas incluyen: síntomas constitucionales (fiebre, sudoración nocturna, pérdida de peso), anemia sintomática (Hb <10 g/dL) o trombocitopenia (<100 × 10⁹/L) atribuibles a la enfermedad, hiperviscosidad sintomática, neuropatía periférica incapacitante relacionada con IgM, amiloidosis asociada, crioglobulinemia sintomática, adenopatías/organomegalia masivas o sintomáticas, o transformación a linfoma agresivo [164,165] **[V-RS]**.
+
+### 15.4 Algoritmo de tratamiento
+
+```mermaid
+flowchart TD
+    A[WM sintomatica, indicacion<br/>de tratamiento] --> B{Hiperviscosidad<br/>sintomatica aguda?}
+    B -->|Si| C[Plasmaferesis urgente<br/>antes de quimioterapia]
+    B -->|No| D{Estado MYD88 / CXCR4<br/>y comorbilidad cardiovascular}
+    C --> D
+    D -->|MYD88 mutado,<br/>sin arritmia/cardiopatia relevante| E[Inhibidor de BTK:<br/>zanubrutinib preferido<br/>sobre ibrutinib - ASPEN]
+    D -->|MYD88 wild-type o<br/>CXCR4 mutado, o<br/>preferencia por tiempo<br/>limitado de tratamiento| F[Inmunoquimioterapia:<br/>DRC o bendamustina-rituximab]
+    E --> G[Tratamiento continuo<br/>hasta progresion o toxicidad]
+    F --> H[Tratamiento de duracion<br/>fija, 4-6 ciclos]
+    G --> I{Progresion?}
+    H --> I
+    I -->|Si| J[Cambiar de clase:<br/>BTKi si no usado, o<br/>inmunoquimioterapia,<br/>o considerar venetoclax/<br/>inhibidores BCL2 en investigacion]
+```
+
+### 15.5 Fármacos y dosis
+
+| Fármaco/esquema | Dosis | Indicación | Notas | Verificación |
+|---|---|---|---|---|
+| **Ibrutinib** | 420 mg VO/día | WM sintomática, tratamiento continuo | Primer BTKi aprobado para WM; mayor toxicidad cardiovascular (fibrilación auricular, hipertensión, sangrado) que zanubrutinib | [163] **[V-RS]** |
+| **Zanubrutinib** | 320 mg VO/día (160 mg c/12 h o 320 mg una vez al día) | WM sintomática, tratamiento continuo; preferido sobre ibrutinib por perfil de toxicidad | ASPEN: tasa de VGPR numéricamente mayor (28 % vs 19 %) y menos fibrilación auricular, menos sangrado, menos neutropenia febril que ibrutinib | [163] **[V-RS]** |
+| **Rituximab-dexametasona-ciclofosfamida (DRC)** | Esquema cada 3 semanas, 4–6 ciclos | Inmunoquimioterapia de duración fija, especialmente si se prefiere evitar tratamiento continuo o hay *CXCR4* mutado | Dosis exactas por ciclo **[PV]** | [165] **[V-RS]** |
+| **Bendamustina-rituximab (BR)** | Esquema cada 4 semanas, 4–6 ciclos | Alternativa a DRC, especialmente en mayor carga tumoral | Dosis exactas por ciclo **[PV]** | [165] **[V-RS]** |
+| **Plasmaféresis** | Según protocolo institucional, habitualmente 1–3 sesiones | Hiperviscosidad sintomática aguda (cefalea, alteración visual, sangrado mucoso) | Medida temporal mientras se inicia tratamiento dirigido a la enfermedad; no sustituye el tratamiento citorreductor | **[PV]** |
+
+### 15.6 Evidencia clave
+
+| Estudio | Diseño | Resultado principal | Certeza |
+|---|---|---|---|
+| **ASPEN** (Tam et al., *Blood* 2020) | Fase 3, 201 pacientes *MYD88* mutado, zanubrutinib vs ibrutinib | Tasa de respuesta mayor similar (77 % vs 78 %); VGPR 28 % vs 19 % (NS); menos fibrilación auricular, sangrado y neutropenia febril con zanubrutinib | Alta (fase 3 aleatorizado) [163] |
+| **MYD88 L265P** (Treon et al., *N Engl J Med* 2012) | Secuenciación de genoma completo, 30 pacientes + cohorte de validación | Mutación presente en 91 % de los casos de LPL/WM; ausente en donantes sanos y rara en otros trastornos de células B | Descubrimiento molecular fundacional [161] |
+
+### 15.7 Seguimiento
+
+Hemograma, electroforesis/inmunofijación sérica, IgM cuantitativa y examen clínico (adenopatías, organomegalia, signos de hiperviscosidad/neuropatía) cada 3–6 meses durante tratamiento activo, y según indicación clínica en observación **[PV]** (periodicidad exacta fuera de tratamiento activo pendiente de verificación directa).
+
+## 16. Puntos clave para residentes e internos
 
 1. Pensar en el **espectro completo**: MGUS → SMM → MM activo; el diagnóstico diferencial entre SMM y MM activo depende de los criterios SLiM-CRAB, no solo del porcentaje de células plasmáticas.
 2. Todo MM sospechado: **electroforesis + inmunofijación + cadenas livianas + función renal + calcio + imagen de cuerpo entero**.
@@ -291,19 +428,26 @@ flowchart TD
 8. **Triple refractario:** los anticuerpos biespecíficos (teclistamab, elranatamab, talquetamab) son hoy una opción estándar, no experimental.
 9. **Plasmocitoma solitario:** siempre excluir mieloma sistémico oculto con imagen de cuerpo entero antes de tratar solo con RT local; el riesgo de progresión a MM es mayor en la forma ósea que en la extramedular.
 10. **Tromboprofilaxis obligatoria** en todo paciente con IMiD: aspirina si bajo riesgo, HBPM/warfarina si ≥2 factores de riesgo o dexametasona alta.
+11. **Amiloidosis AL:** ante proteinuria nefrótica, insuficiencia cardíaca con ecocardiograma "brillante" (patrón infiltrativo) o neuropatía periférica inexplicada, pensar en amiloidosis AL y pedir cadenas livianas libres + biopsia; la estadificación Mayo revisada 2012 (troponina T, NT-proBNP, FLC-diff) define pronóstico y guía la intensidad del tratamiento.
+12. **Macroglobulinemia de Waldenström:** no toda IgM monoclonal con infiltración medular requiere tratamiento; las indicaciones son clínicas (síntomas, citopenias, hiperviscosidad), no solo el nivel de IgM. Confirmar *MYD88* L265P y *CXCR4* antes de elegir entre BTKi e inmunoquimioterapia.
 
-## 15. Referencias de esta página
+## 17. Referencias de esta página
 
 - **[30]** Dimopoulos MA et al., EHA-ESMO 2021 (ver [lista](../referencias.md)).
 - **[31]** Palumbo A et al., IMWG 2008: tromboprofilaxis en mieloma (ver [lista](../referencias.md)).
 - **[117]–[128]** Criterios diagnósticos IMWG, modelos de riesgo de MGUS/SMM, y ensayos pivotales 2022–2025 (PERSEUS, IMROZ, AQUILA, CARTITUDE-4, biespecíficos, R2-ISS, NCCN 2025) — ver [lista completa de referencias](../referencias.md).
+- **[129]–[130]** Clasificación OMS 5.ª ed./ICC 2022 de neoplasias linfoides (reutilizadas para WM/LPL) — ver [lista](../referencias.md).
+- **[156]–[158]** Amiloidosis AL: estadificación Mayo revisada 2012, ensayo ANDROMEDA, guías EHA-ISA de trasplante — ver [lista](../referencias.md).
+- **[159]–[165]** Macroglobulinemia de Waldenström: IPSSWM original y revisado, MYD88 L265P, NCCN WM/LPL 2024, ASPEN, guía ESMO 2018, recomendaciones IWWM-8 — ver [lista](../referencias.md).
 
-## 16. Pendientes
+## 18. Pendientes
 
 - [ ] Dosis y esquemas exactos por ciclo (Dara-VRd, Isa-VRd, DaraVTD, DaraRd) **[PV]**.
 - [ ] Soporte: enfermedad ósea (bifosfonatos/denosumab), infecciones, vacunas, insuficiencia renal **[PV]**.
 - [ ] Modelo de riesgo IMWG 2020 para SMM: detalle completo de ponderación y validación **[PV]**.
 - [ ] Cita pivotal exacta de talquetamab (MonumenTAL-1) en publicación de revista — verificar DOI/PMID directamente **[PV]**.
 - [ ] Secuenciación óptima CAR-T vs. biespecíficos vs. esquemas clásicos en recaída — evidencia en evolución activa **[PV]**.
-- [ ] Amiloidosis AL, síndrome POEMS y enfermedades de cadenas pesadas — posible página transversal separada (no desarrollados aquí).
+- [ ] Amiloidosis AL: criterios de respuesta hematológica/de órgano con umbrales exactos (consenso ISA) y dosis de melfalán por estadio renal/cardíaco — verificación directa pendiente **[PV]**.
+- [ ] Waldenström: dosis exactas de DRC/BR por ciclo, manejo de neuropatía IgM-asociada y rol de venetoclax/inhibidores de BCL2 en investigación — **[PV]**.
+- [ ] Síndrome POEMS y enfermedades de cadenas pesadas — posible página transversal separada (no desarrollados aquí).
 - [ ] Cobertura GES/PAD en Chile **[PV]**.

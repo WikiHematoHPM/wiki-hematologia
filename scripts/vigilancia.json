@@ -15,6 +15,8 @@
     {"titulo": "Leucemia mieloide aguda (LMA)", "pagina": "hemato-onco/lma.md", "consulta": "acute myeloid leukemia[ti]"},
     {"titulo": "Leucemia linfoblástica aguda (LLA)", "pagina": "hemato-onco/lla.md", "consulta": "acute lymphoblastic leukemia[ti] AND (adult*[ti] OR older[ti] OR elderly[ti])"},
     {"titulo": "Mieloma múltiple y gammapatías monoclonales", "pagina": "hemato-onco/mieloma.md", "consulta": "(multiple myeloma[ti] OR smoldering myeloma[ti] OR monoclonal gammopathy[ti] OR plasmacytoma[ti])"},
+    {"titulo": "Amiloidosis AL", "pagina": "hemato-onco/mieloma.md", "consulta": "(AL amyloidosis[ti] OR light chain amyloidosis[ti]) AND (treatment[ti] OR trial[ti] OR daratumumab[ti] OR staging[ti])"},
+    {"titulo": "Macroglobulinemia de Waldenström", "pagina": "hemato-onco/mieloma.md", "consulta": "(Waldenstrom macroglobulinemia[ti] OR lymphoplasmacytic lymphoma[ti]) AND (treatment[ti] OR trial[ti] OR BTK[ti] OR guideline[ti])"},
     {"titulo": "Síndrome mielodisplásico (SMD)", "pagina": "hemato-onco/sindrome-mielodisplasico.md", "consulta": "(myelodysplastic syndrome*[ti] OR myelodysplastic neoplasm*[ti])"},
     {"titulo": "Leucemia mielomonocítica crónica (LMMC)", "pagina": "hemato-onco/lmmc.md", "consulta": "chronic myelomonocytic leukemia[ti]"},
     {"titulo": "Medicina transfusional", "pagina": "transversal/medicina-transfusional.md", "consulta": "(red blood cell transfusion[ti] OR platelet transfusion[ti] OR transfusion threshold*[ti])"},

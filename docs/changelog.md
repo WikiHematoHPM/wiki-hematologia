@@ -6,6 +6,12 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-20 (21) — Amiloidosis AL y macroglobulinemia de Waldenström integradas en mieloma.md
+- Se agregan dos secciones nuevas y completas a `hemato-onco/mieloma.md` (grupo Gammapatías): **§14 Amiloidosis AL** (diagnóstico, estadificación Mayo revisada 2012, algoritmo de tratamiento con daratumumab-CyBorD/ANDROMEDA, ASCT) y **§15 Macroglobulinemia de Waldenström** (diagnóstico MYD88/CXCR4, IPSSWM/R-IPSSWM, algoritmo con BTKi vs. inmunoquimioterapia, ASPEN).
+- `hemato-onco/index.md`: la fila de Gammapatías ya no distingue "Por desarrollar" para amiloidosis AL/Waldenström; ambas quedan **Lista**.
+- Referencias **[156]–[158]** (amiloidosis AL: Mayo revisada 2012, ANDROMEDA, guía EHA-ISA de trasplante) y **[159]–[165]** (Waldenström: IPSSWM original y revisado, MYD88 L265P, NCCN WM/LPL 2024, ASPEN, ESMO 2018, IWWM-8) añadidas a `referencias.md`; se reutilizan **[129]–[130]** (OMS/ICC 2022) para la clasificación de WM/LPL.
+- `scripts/vigilancia.json`: se agregan 2 consultas de vigilancia PubMed (amiloidosis AL; macroglobulinemia de Waldenström).
+
 ## 2026-11-20 (20) — Nueva página: Neoplasias mieloproliferativas (PV, TE, mielofibrosis, LMC)
 - Nueva página **Neoplasias mieloproliferativas clásicas BCR::ABL1-negativas y LMC** (`hemato-onco/neoplasias-mieloproliferativas.md`): cubre policitemia vera, trombocitemia esencial, mielofibrosis primaria/secundaria y leucemia mieloide crónica, con diagnóstico OMS/ICC 2022, estratificación de riesgo (IPSET-trombosis, MIPSS70+v2.0, GIPSS, ELTS), algoritmos de tratamiento (diagramas de flujo), tablas de fármacos y dosis, y evidencia clave (RESPONSE, COMFORT-I, MOMENTUM, PERSIST-1/2, EBMT/ELN 2024, ASCEMBL).
 - Se agrega al `mkdocs.yml` (grupo Hemato-oncología) y se actualiza `hemato-onco/index.md` (estado "Por desarrollar" → "Lista").
