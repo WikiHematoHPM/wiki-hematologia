@@ -29,4 +29,4 @@ Las referencias están numeradas en la página [Referencias verificadas](referen
 
 ## Cómo se mantiene
 
-Revisa [Cómo se construye y actualiza](metodologia.md) y el [Registro de cambios](changelog.md). Para publicarla (acceso privado para residentes e internos), mira [Alojamiento y publicación](alojamiento.md).
+Revisa [Cómo se construye y actualiza](metodologia.md) y el [Registro de cambios](changelog.md).

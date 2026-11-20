@@ -6,6 +6,10 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-20 (23) — Se retira la página "Alojamiento y publicación"
+- Se elimina `docs/alojamiento.md` y su entrada del `mkdocs.yml`, para que la wiki quede dedicada solo a material de estudio. Se quita el enlace desde `docs/index.md`.
+- La información técnica de publicación sigue disponible para quien mantiene el repositorio en el `README.md` (flujo `.github/workflows/publicar.yml` y `scripts/novedades_pubmed.py`). El contenido anterior de la página se conserva en el historial de git.
+
 ## 2026-11-20 (22) — Nueva página: Soporte oncohematológico
 - Nueva página **Soporte oncohematológico** (`hemato-onco/soporte-oncohematologico.md`), centrada en la **prevención**: estratificación del riesgo infeccioso, profilaxis antibacteriana (levofloxacino), antifúngica (posaconazol), antiviral (VHS/VZV, VHB), de *Pneumocystis*, G-CSF (ASCO 2026), hipogammaglobulinemia e IgIV (RATIONAL), vacunación (ECIL 7), antieméticos (ASCO 2020) e hiperviscosidad sintomática. Neutropenia febril, lisis tumoral y leucostasis se mantienen en Urgencias hematológicas, con enlaces cruzados.
 - Se agrega al `mkdocs.yml` y se actualiza `hemato-onco/index.md` ("Por desarrollar" → "Lista").

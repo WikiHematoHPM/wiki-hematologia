@@ -24,7 +24,6 @@ docs/
   metodologia.md           cómo se construye y actualiza
   plantilla-pagina.md      plantilla para páginas nuevas
   referencias.md           referencias verificadas (PMID/DOI)
-  alojamiento.md           dónde publicarla y cómo protegerla
   changelog.md             registro de cambios
 scripts/check_wiki.py      control de calidad
 mkdocs.yml                 configuración y navegación
@@ -34,7 +33,7 @@ mkdocs.yml                 configuración y navegación
 
 **[V-TF]** texto completo revisado · **[V-RS]** solo resumen/metadatos · **[PV]** pendiente de verificación.
 
-Lee `docs/alojamiento.md` para publicarla (GitHub Pages) y para la actualización automática (`.github/workflows/publicar.yml`, `scripts/novedades_pubmed.py`).
+La publicación (GitHub Pages) y la actualización automática están en `.github/workflows/publicar.yml` y `scripts/novedades_pubmed.py`.
 
 ## Nota sobre los diagramas
 
