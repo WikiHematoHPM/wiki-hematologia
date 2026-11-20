@@ -6,6 +6,12 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-20 (22) — Nueva página: Soporte oncohematológico
+- Nueva página **Soporte oncohematológico** (`hemato-onco/soporte-oncohematologico.md`), centrada en la **prevención**: estratificación del riesgo infeccioso, profilaxis antibacteriana (levofloxacino), antifúngica (posaconazol), antiviral (VHS/VZV, VHB), de *Pneumocystis*, G-CSF (ASCO 2026), hipogammaglobulinemia e IgIV (RATIONAL), vacunación (ECIL 7), antieméticos (ASCO 2020) e hiperviscosidad sintomática. Neutropenia febril, lisis tumoral y leucostasis se mantienen en Urgencias hematológicas, con enlaces cruzados.
+- Se agrega al `mkdocs.yml` y se actualiza `hemato-onco/index.md` ("Por desarrollar" → "Lista").
+- Referencias **[166]–[173]** añadidas; se reutilizan [109] (ASFA) y [164] (ESMO Waldenström).
+- `scripts/vigilancia.json`: nueva consulta PubMed para la página.
+
 ## 2026-11-20 (21) — Amiloidosis AL y macroglobulinemia de Waldenström integradas en mieloma.md
 - Se agregan dos secciones nuevas y completas a `hemato-onco/mieloma.md` (grupo Gammapatías): **§14 Amiloidosis AL** (diagnóstico, estadificación Mayo revisada 2012, algoritmo de tratamiento con daratumumab-CyBorD/ANDROMEDA, ASCT) y **§15 Macroglobulinemia de Waldenström** (diagnóstico MYD88/CXCR4, IPSSWM/R-IPSSWM, algoritmo con BTKi vs. inmunoquimioterapia, ASPEN).
 - `hemato-onco/index.md`: la fila de Gammapatías ya no distingue "Por desarrollar" para amiloidosis AL/Waldenström; ambas quedan **Lista**.

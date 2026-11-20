@@ -10,7 +10,7 @@
 | **Gammapatías** | **[Mieloma múltiple, MGUS y SMM, plasmocitoma solitario, amiloidosis AL, macroglobulinemia de Waldenström](mieloma.md)** (criterios IMWG, R2-ISS, PERSEUS/IMROZ/AQUILA/CARTITUDE-4/biespecíficos, tromboprofilaxis IMWG, Mayo revisada 2012/ANDROMEDA para amiloidosis AL, IPSSWM/R-IPSSWM/ASPEN para Waldenström) | Lista (actualizado 2026) |
 | **Neoplasias mielodisplásicas** | **[Síndrome mielodisplásico](sindrome-mielodisplasico.md)** (OMS/ICC 2022, IPSS-M, algoritmos LR/HR), **[Leucemia mielomonocítica crónica](lmmc.md)** (OMS 2022, CPSS-Mol) | SMD: lista; LMMC: lista |
 | **Neoplasias mieloproliferativas** | **[Policitemia vera, trombocitemia esencial, mielofibrosis, LMC](neoplasias-mieloproliferativas.md)** (OMS/ICC 2022, IPSET-trombosis, MIPSS70+v2.0/GIPSS, ELTS, ELN CML 2025) | Lista |
-| **Soporte oncohematológico** | Neutropenia febril, síndrome de lisis tumoral, hiperviscosidad, profilaxis infecciosa | Por desarrollar |
+| **Soporte oncohematológico** | **[Profilaxis antibacteriana/antifúngica/antiviral, VHB, PJP, G-CSF, IgIV, vacunación, antieméticos, hiperviscosidad](soporte-oncohematologico.md)** (ASCO/IDSA 2018, ASCO 2026 G-CSF, ECIL 7). Neutropenia febril y lisis tumoral: ver [Urgencias hematológicas](../transversal/urgencias-hematologicas.md) | Lista |
 
 ## Principios de la sección
 

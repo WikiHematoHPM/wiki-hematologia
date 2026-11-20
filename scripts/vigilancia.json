@@ -24,6 +24,7 @@
     {"titulo": "Anemia de enfermedad crónica", "pagina": "benigna/anemia-enfermedad-cronica.md", "consulta": "(anemia of inflammation[ti] OR anemia of chronic disease[ti])"},
     {"titulo": "Citopenias y estudio inicial", "pagina": "benigna/citopenias-estudio-inicial.md", "consulta": "(pancytopenia[ti] OR unexplained cytopenia*[ti] OR eosinophilia[ti] OR polycythemia[ti]) AND (evaluation[ti] OR diagnosis[ti] OR approach[ti] OR workup[ti])"},
     {"titulo": "Laboratorio y diagnóstico (MRD/citometría)", "pagina": "transversal/laboratorio-diagnostico.md", "consulta": "(measurable residual disease[ti] OR minimal residual disease[ti]) AND (leukemia[ti] OR lymphoma[ti] OR myeloma[ti])"},
+    {"titulo": "Soporte oncohematológico", "pagina": "hemato-onco/soporte-oncohematologico.md", "consulta": "(antimicrobial prophylaxis[ti] OR antifungal prophylaxis[ti] OR granulocyte colony-stimulating factor[ti] OR hepatitis B reactivation[ti] OR hypogammaglobulinemia[ti]) AND (hematologic*[ti] OR leukemia[ti] OR lymphoma[ti] OR myeloma[ti] OR cancer[ti])"},
     {"titulo": "Neoplasias mieloproliferativas (PV/TE/MF/LMC)", "pagina": "hemato-onco/neoplasias-mieloproliferativas.md", "consulta": "(polycythemia vera[ti] OR essential thrombocythemia[ti] OR myelofibrosis[ti] OR chronic myeloid leukemia[ti]) AND (guideline[ti] OR recommendation*[ti] OR trial[ti])"}
   ]
 }
