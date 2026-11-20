@@ -9,7 +9,7 @@
 | **Linfomas** | **[Hodgkin, DLBCL, folicular, manto, zona marginal, Burkitt — diagnóstico y etapificación](linfomas.md)** (clasificación OMS/ICC 2022, Lugano, PET-CT, IPI/NCCN-IPI/FLIPI/MIPI/IPS) | Diagnóstico/etapificación: lista (actualizado 2026). Tratamiento: pendiente (página aparte) |
 | **Gammapatías** | **[Mieloma múltiple, MGUS y SMM, plasmocitoma solitario](mieloma.md)** (criterios IMWG, R2-ISS, PERSEUS/IMROZ/AQUILA/CARTITUDE-4/biespecíficos, + tromboprofilaxis IMWG), amiloidosis AL, Waldenström | Mieloma/MGUS/SMM/plasmocitoma: lista (actualizado 2026) |
 | **Neoplasias mielodisplásicas** | **[Síndrome mielodisplásico](sindrome-mielodisplasico.md)** (OMS/ICC 2022, IPSS-M, algoritmos LR/HR), **[Leucemia mielomonocítica crónica](lmmc.md)** (OMS 2022, CPSS-Mol) | SMD: lista; LMMC: lista |
-| **Neoplasias mieloproliferativas** | Policitemia vera, trombocitemia esencial, mielofibrosis, LMC | Por desarrollar |
+| **Neoplasias mieloproliferativas** | **[Policitemia vera, trombocitemia esencial, mielofibrosis, LMC](neoplasias-mieloproliferativas.md)** (OMS/ICC 2022, IPSET-trombosis, MIPSS70+v2.0/GIPSS, ELTS, ELN CML 2025) | Lista |
 | **Soporte oncohematológico** | Neutropenia febril, síndrome de lisis tumoral, hiperviscosidad, profilaxis infecciosa | Por desarrollar |
 
 ## Principios de la sección

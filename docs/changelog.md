@@ -6,6 +6,12 @@
 | 2026-11-11 | Página piloto **PTI del adulto** basada en la guía ASH 2026 (texto completo). | [1]–[5] |
 | 2026-11-11 | Página piloto **LLC** (borrador): iwCLL 2018, ESMO 2020/2024, AMPLIFY, CLL14. Texto completo de guías pendiente. | [6]–[16] |
 
+## 2026-11-20 (20) — Nueva página: Neoplasias mieloproliferativas (PV, TE, mielofibrosis, LMC)
+- Nueva página **Neoplasias mieloproliferativas clásicas BCR::ABL1-negativas y LMC** (`hemato-onco/neoplasias-mieloproliferativas.md`): cubre policitemia vera, trombocitemia esencial, mielofibrosis primaria/secundaria y leucemia mieloide crónica, con diagnóstico OMS/ICC 2022, estratificación de riesgo (IPSET-trombosis, MIPSS70+v2.0, GIPSS, ELTS), algoritmos de tratamiento (diagramas de flujo), tablas de fármacos y dosis, y evidencia clave (RESPONSE, COMFORT-I, MOMENTUM, PERSIST-1/2, EBMT/ELN 2024, ASCEMBL).
+- Se agrega al `mkdocs.yml` (grupo Hemato-oncología) y se actualiza `hemato-onco/index.md` (estado "Por desarrollar" → "Lista").
+- Referencias **[140]–[144]** y **[146]–[155]** añadidas (se omite intencionalmente el número 145).
+- `scripts/vigilancia.json`: se agrega vigilancia PubMed semanal para la nueva página (guías/recomendaciones/ensayos de PV, TE, mielofibrosis y LMC).
+
 ## 2026-11-20 (19) — Vigilancia PubMed ampliada a 3 páginas sin cobertura y corrección de estado en índice transversal
 - `scripts/vigilancia.json`: se agregan 3 temas que ya tenían página publicada pero no estaban bajo vigilancia semanal automática: **Anemia de enfermedad crónica**, **Citopenias y estudio inicial** y **Laboratorio y diagnóstico** (consulta acotada a MRD/citometría, el subtema con mayor probabilidad de guías/consensos nuevos).
 - `docs/transversal/index.md`: se corrige la fila de **Competencias docentes**, que seguía marcada "Por desarrollar" aunque la página ya existe desde el 2026-11-14 (18); se agrega el enlace correspondiente.
